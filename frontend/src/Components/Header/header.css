@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  background: #fff;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo + Name */
+.logo-div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.logo-name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #139e8e;
+  cursor: pointer;
+}
+
+/* Back button */
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #139e8e;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  color: #0d7268;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+  .logo-name {
+    font-size: 18px;
+  }
+  .back-btn {
+    font-size: 16px;
+  }
+}
