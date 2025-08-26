@@ -1,19 +1,19 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Header from "./components/Header";
+import Home from "./pages/Home/Home.jsx";
+import Header from "./components/Header/Header.jsx";
 import Login from "./pages/auth/Login.jsx";
 import Register from "./pages/auth/Register.jsx";
 import Verify from "./pages/auth/Verify.jsx";
-import Footer from "./components/Footer";
-import About from "./pages/About";
-import Account from "./Pages/Account";
+import Footer from "./components/Footer/Footer.jsx";
+import About from "./pages/About/About.jsx";
+import Account from "./Pages/Account/Account.jsx";
 import { userData } from "./Context/UserContext.jsx";
-import Loading from "./components/Loading";
-import Courses from "./pages/Courses";
-import CourseDescription from "./Pages/CourseDescription";
-import PaymentSuccess from "./pages/PaymentSuccess";
+import Loading from "./components/Loading/Loading.jsx";
+import Courses from "./pages/Courses/Courses.jsx";
+import CourseDescription from "./Pages/CourseDescription/CourseDescription.jsx";
+import PaymentSuccess from "./pages/PaymentSuccess/PaymentSuccess.jsx";
 import { Dashboard } from "./Pages/dashboard/Dashboard.jsx";
 import CourseStudy from "./Pages/coursestudy/CourseStudy.jsx";
 import Lecture from "./Pages/lecture/Lecture.jsx";
@@ -22,7 +22,7 @@ import AdminCourses from "./admin/Courses/AdminCourses.jsx";
 import AdminUser from "./admin/users/AdminUser.jsx";
 import  {ForgotPassword}  from "./Pages/auth/ForgotPassword.jsx";
 import  ResetPassword  from "./Pages/auth/ResetPassword.jsx";
-import Playground from "./Pages/Playground";
+import Playground from "./Pages/Playground/Playground.jsx";
 import ProfessionalCareer from "./Pages/professionalCareer/ProfessionalCareer.jsx";
 
 
